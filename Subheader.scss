@@ -1,0 +1,22 @@
+.list {
+  color: #515355;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.list li {
+  list-style-type: none;
+  color: #3c4043;
+  display: inline;
+  font-weight: 500;
+}
+
+.list a {
+  text-decoration: none;
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  padding: 20px 20px;
+  margin: 50px 20px 50px 20px;
+  max-width: 100%;
+
+  color: #3c4043;
+}
