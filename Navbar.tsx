@@ -1,9 +1,9 @@
 import * as React from "react";
-import logo from "./googlelogo.png";
+import logoimg from "./logoimg.png";
 export function Navbar() {
   return (
     <div>
-      <img src={logo} alt="logo" />
+      <img src={logoimg} alt="logo" width="100px" height="100px" />
     </div>
   );
 }
