@@ -1,13 +1,28 @@
 import * as React from "react";
 import "./Subheader.scss";
+import smallimage from "./logo1.jpg";
+import anotherImg from "./tenthimg.png";
+import { Chip } from "./Chip/Chip";
+
 export function Subheader() {
   return (
     <div className="list">
       <ul>
         <li>
-          <a href="https://www.google.nl/search?q=html+css&tbm=isch&safe=active&chips=q:html+css,g_1:javascript:Lqzmq2dgrrE%3D&bih=754&biw=1536&safe=active&hl=en&ved=2ahUKEwiX27Tdi83pAhVUkaQKHTxiCToQ4lYoAHoECAEQFQ">
-            javascript
-          </a>
+          {/* */}
+          <Chip
+            imageUrl={smallimage}
+            label="javascript"
+            url="https://www.google.nl/search?q=html+css&tbm=isch&safe=active&chips=q:html+css,g_1:javascript:Lqzmq2dgrrE%3D&bih=754&biw=1536&safe=active&hl=en&ved=2ahUKEwiX27Tdi83pAhVUkaQKHTxiCToQ4lYoAHoECAEQFQ"
+          />
+          <Chip
+            imageUrl={anotherImg}
+            label="html"
+            url="https://www.google.nl/search?q=html+css&tbm=isch&safe=active&chips=q:html+css,g_1:logo:7yKb_bWJaa0%3D&bih=754&biw=1536&safe=active&hl=en&ved=2ahUKEwiX27Tdi83pAhVUkaQKHTxiCToQ4lYoAXoECAEQFw"
+          />
+          <Chip label="csss" />
+          <Chip label="website" />
+          {/* */}
         </li>
         <li>
           <a href="https://www.google.nl/search?q=html+css&tbm=isch&safe=active&chips=q:html+css,g_1:logo:7yKb_bWJaa0%3D&bih=754&biw=1536&safe=active&hl=en&ved=2ahUKEwiX27Tdi83pAhVUkaQKHTxiCToQ4lYoAXoECAEQFw">

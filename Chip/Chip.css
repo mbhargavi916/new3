@@ -1,0 +1,14 @@
+.Chip {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  align-items: center;
+  grid-gap: 8px;
+  padding: 2px 20px 2px 2px;
+}
+
+.Chip_Img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

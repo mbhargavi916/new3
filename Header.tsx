@@ -1,6 +1,7 @@
 import * as React from "react";
 
 import "./Header.css";
+import { Chip } from "./Chip/Chip";
 
 export function Header() {
   return (

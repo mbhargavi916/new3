@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "parcel": "^1.12.4",
+    "sass": "^1.26.5",
     "typescript": "^3.9.3"
   }
 }
